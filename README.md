@@ -1,13 +1,14 @@
-# Maya VI - Sitemap Generator
+# Maya VI - Sitemap Generator & SEO Audit Tool
 
-A powerful and efficient sitemap generator built with Rust. Maya VI crawls a given URL and generates a sitemap, which can be used for SEO purposes.
+A super-fast and lightweight Rust-based tool for generating sitemaps from a list of URLs and performing SEO audits.
 
 ## Features
 
-*   **Web Crawling**: Traverses a website by following links to discover all pages.
-*   **Sitemap Generation**: Creates a `sitemap.txt` file containing all discovered URLs.
-*   **Cross-platform**: Built with `eframe` for a native GUI experience on Windows, macOS, and Linux.
-*   **Syntax Highlighting**: Displays file contents with syntax highlighting.
+*   **Sitemap Generation**: Load a list of URLs from a file (`test_urls.txt`) to generate a `sitemap.txt`.
+*   **Proxy Support**: Option to route requests through a proxy for versatile network testing.
+*   **Request/Response Viewer**: Inspect HTTP requests and responses for in-depth analysis and debugging.
+*   **Data Management**: Easily delete and save your data.
+*   **High Performance**: Built in Rust for a speedy and lightweight experience.
 
 ## Installation
 
@@ -30,10 +31,9 @@ A powerful and efficient sitemap generator built with Rust. Maya VI crawls a giv
 ## Usage
 
 1.  Launch the application.
-2.  Enter the base URL you want to crawl in the input field.
-3.  Click the "Crawl" button.
-4.  The application will start crawling the website and will display the discovered URLs in real-time.
-5.  Once the crawl is complete, a `sitemap.txt` file will be created in the project's root directory.
+2.  The application will automatically load URLs from `test_urls.txt`.
+3.  Use the provided options to render through a proxy, view requests and responses, and manage your data.
+4.  A `sitemap.txt` file will be generated based on your list of URLs.
 
 ## Dependencies
 
@@ -48,3 +48,7 @@ This project uses the following main dependencies:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is not yet licensed.
