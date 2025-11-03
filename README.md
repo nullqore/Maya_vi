@@ -14,7 +14,7 @@ A super-fast and lightweight Rust-based tool for generating sitemaps from a list
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/nullqore/Maya_vi.git
     cd maya_vi
     ```
 
