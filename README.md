@@ -4,7 +4,7 @@ A super-fast and lightweight Rust-based tool for generating sitemaps from a list
 
 ## Features
 
-*   **Sitemap Generation**: Load a list of URLs from a file (`test_urls.txt`) to generate a `sitemap.txt`.
+*   **Sitemap Generation**: Load a list of URLs from a file.
 *   **Proxy Support**: Option to route requests through a proxy for versatile network testing.
 *   **Request/Response Viewer**: Inspect HTTP requests and responses for in-depth analysis and debugging.
 *   **Data Management**: Easily delete and save your data.
@@ -48,7 +48,3 @@ This project uses the following main dependencies:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is not yet licensed.
