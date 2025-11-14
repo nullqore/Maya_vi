@@ -2,6 +2,8 @@
 
 A super-fast and lightweight Rust-based tool for generating sitemaps from a list of URLs and performing SEO audits.
 
+<img src="_media/maya_vi.gif" alt="DeepDork" width="800" height="400">
+
 ## Features
 
 *   **Sitemap Generation**: Load a list of URLs from a file.
@@ -18,7 +20,7 @@ A super-fast and lightweight Rust-based tool for generating sitemaps from a list
     cd maya_vi
     ```
 
-2.  **Build the project:**
+2.  **Build the project(optinal):**
     ```bash
     cargo build --release
     ```
@@ -31,19 +33,7 @@ A super-fast and lightweight Rust-based tool for generating sitemaps from a list
 ## Usage
 
 1.  Launch the application.
-2.  The application will automatically load URLs from `test_urls.txt`.
-3.  Use the provided options to render through a proxy, view requests and responses, and manage your data.
-4.  A `sitemap.txt` file will be generated based on your list of URLs.
-
-## Dependencies
-
-This project uses the following main dependencies:
-
-*   [eframe](https://github.com/emilk/egui/tree/master/crates/eframe): For the GUI framework.
-*   [reqwest](https://crates.io/crates/reqwest): For making HTTP requests.
-*   [url](https://crates.io/crates/url): For URL parsing.
-*   [syntect](https://crates.io/crates/syntect): For syntax highlighting.
-*   [sled](https://crates.io/crates/sled): For the embedded database.
+2.  Load URLs from `test_urls.txt`.
 
 ## Contributing
 
