@@ -20,7 +20,7 @@ A super-fast and lightweight Rust-based tool for generating sitemaps from a list
     cd maya_vi
     ```
 
-2.  **Build the project(optinal):**
+2.  **Build the project(optional):**
     ```bash
     cargo build --release
     ```
